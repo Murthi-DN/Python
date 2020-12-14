@@ -1,0 +1,188 @@
+Python was developed by Guido van Rossum
+========================================
+
+What is Python?
+---------------
+    Python is an Interpreted, Functional, Object Oriented High Level Programming Language
+
+    Python is Interpreted: Python is processed at runtime by the interpreter, you do not need to compile your program
+                           before executing it.
+
+    Python is Interactive: You can actually sit at a Python prompt and Interact with the interpreter directly to write
+                           your programs.
+
+    Python is Object-Oriented: Python supports Object-Oriented style or technique of programming that encapsulates code
+                               within objects.
+
+    Python is a Beginner's Language: Python is a great language for the beginnerlevel programmers and supports
+                                     the development of a wide range of applications from simple text processing to
+                                     WWW browsers to games
+
+
+Why Python?
+-----------
+    * Easy to learn/use
+    * Performance - is Super Good, coz Python is Interpreted language, there is no additional compilation step
+    * Rapid Development - We can quickly develop apps as Python has lot of Inbuilt Libraries
+    * Dynamically Typed - Like Java Script, means we don't need to specify What Data Type is, it takes automatically
+    * Community - Python has huge community
+    * Third Party Libraries - Python can easily include Third Party Libraries, ex: CherryPy, Boto
+
+
+Python Features
+---------------
+    * Easy-to-learn: Python has few keywords, simple structure, and a clearly defined syntax.
+                   This allows a student to pick up the language quickly.
+
+    * Easy-to-read: Python code is more clearly defined and visible to the eyes.
+
+    * Easy-to-maintain: Python's source code is fairly easy-to-maintain.
+
+    * A broad standard library: Python's bulk of the library is very portable and crossplatform compatible on UNIX,
+                              Windows, and Macintosh.
+
+    * Interactive Mode: Python has support for an interactive mode, which allows interactive testing and debugging of
+                      snippets of code.
+
+    * Portable: Python can run on a wide variety of hardware platforms and has the same interface on all platforms.
+
+    * Extendable: You can add low-level modules to the Python interpreter. These modules enable programmers to add to or
+                customize their tools to be more efficient.
+
+    * Databases: Python provides interfaces to all major commercial databases.
+
+    * GUI Programming: Python supports GUI applications that can be created and ported to many system calls, libraries and
+                     windows systems, such as Windows MFC, Macintosh, and the X Window system of Unix.
+
+    * Scalable: Python provides a better structure and support for large programs than shell scripting
+
+
+Syntax
+------
+    print ("Hello, Python!")
+
+
+Python Identifiers
+------------------
+A Python identifier is a name used to identify a variable, function, class, module or other object.
+An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters,
+underscores and digits (0 to 9).
+
+
+Variables
+---------
+Variables are containers, which hold any data like numeric, text...etc
+
+sal=100000
+print(sal)
+
+sal=200000.5
+print(sal)
+
+name="Murthi"
+print(name)
+
+print("Emp's Info:", name, "and", sal)
+
+
+
+Multi-Line Statements
+---------------------
+Statements in Python typically end with a new line. Python, however, allows the use of the line continuation character (\)
+to denote that the line should continue
+
+Ex: total = item_one + \
+    item_two + \
+    item_three
+
+The statements contained within the [], {}, or () brackets do not need to use the line continuation character.
+
+Ex: days = ['Monday', 'Tuesday', 'Wednesday',
+           'Thursday', 'Friday']
+
+
+String Denote
+-------------
+Python accepts single ('), double (") and triple (''' or """) quotes to denote string literals
+
+Ex:
+    word = 'word'
+    sentence = "This is a sentence."
+    paragraph = """This is a paragraph. It is
+                   made up of multiple lines and sentences."""
+
+
+Multiple Statements on a Single Line
+------------------------------------
+The semicolon (;) allows multiple statements on a single line given that no statement starts a new code block.
+a=10;print(a)
+
+
+Command Line Arguments
+----------------------
+Python provides a getopt module that helps you parse command-line options and arguments.
+
+Ex: python test.py arg1 arg2 arg3
+
+The Python sys module provides access to any command-line arguments via the sys.argv. This serves two purposes
+    1. sys.argv is the list of command-line arguments.
+    2. len(sys.argv) is the number of command-line arguments.
+
+Here sys.argv[0] is the program i.e. the script name
+
+Ex: test.py
+    import sys
+    print ('Number of arguments:', len(sys.argv), 'arguments.')
+    print ('Argument List:', str(sys.argv))
+
+    Now run the above script as follows
+    python test.py arg1 arg2 arg
+
+    Output:
+    Number of arguments: 4 arguments.
+    Argument List: ['test.py', 'arg1', 'arg2', 'arg3']
+
+
+Comments
+--------
+    #Single Line Comment
+
+    """ Multi Line Comments """
+    ''' Multi Line Comments '''
+
+
+Indentation
+-----------
+    Should use 4 Spaces or One Tab for a Block of Code
+    Ex:
+        if (a<b):
+            print("Indentation Test")
+        else:
+            print("Indentation Test")
+
+
+Data Types
+----------
+Python has 5 Data Types
+    1. None - Doesn't contain any value
+       Ex: a = None
+
+    2. Numeric Types - Int, Float, Complex, Binary, Hexa Decimal, Boolean
+       Ex: a = 10
+           b = 1.5
+           c = 1+5j
+
+    3. Sequences - Contains sequences of other data types
+       Ex: list, tuple, strings, range, bytes, bytearray
+
+    4. Mappings - Map and Reduce / Dictionary / Key-Value Pair
+
+
+Operator
+--------
+Arithmetic Operators
+Assignment Operators
+Comparison (Relational) Operators
+Logical Operators
+Membership Operators
+Identity Operators
