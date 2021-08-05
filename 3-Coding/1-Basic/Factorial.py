@@ -1,4 +1,3 @@
-#Python Program for factorial of a number
 
 num=int(input("Enter a number"))
 
