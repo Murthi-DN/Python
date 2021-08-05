@@ -1,13 +1,13 @@
-a=int(input("enter number"))
 
-for i in range(2,a):
+num = 7
+flag = False
 
-  if(a%i)==0:
+for i in range(2, num):
+    if (num%i) == 0:
+        flag = True
+        break
 
-    print("not prime")
-
-    break
-
-  else:
-
+if flag:
+    print("Not Prime")
+else:
     print("Prime")

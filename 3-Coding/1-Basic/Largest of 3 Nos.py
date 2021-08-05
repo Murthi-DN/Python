@@ -1,8 +1,8 @@
-if (num1 > num2) and (num1 > num3):
-   largest = num1
-elif (num2 > num1) and (num2 > num3):
-   largest = num2
+if (n1>n2) and (n1>n3):
+   largest = n1
+elif (n2>n1) and (n2>n3):
+   largest = n2
 else:
-   largest = num3
+   largest = n3
  
-print("The largest number is",largest)
+print(largest)

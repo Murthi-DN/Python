@@ -1,6 +1,7 @@
-a=input("enter string")
-b=a[::-1]
-if a==b:
-  print("palindrome")
+str=input("Enter String")
+reverse=str[::-1]
+
+if str==reverse:
+  print("Palindrome")
 else:
-  print("Not a Palindrome")
+  print("Not Palindrome")

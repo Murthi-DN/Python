@@ -1,8 +1,8 @@
-if (num1 < num2) and (num1 < num3):
-   small = num1
-elif (num2 < num1) and (num2 < num3):
-   small = num2
+if (n1<n2) and (n1<n3):
+   small = n1
+elif (n2<n1) and (n2<n3):
+   small = n2
 else:
-   small = num3
+   small = n3
  
-print("The small number is",small)
+print(small)

@@ -1,3 +1,3 @@
-for character in text:
-    if character.isupper():
+for char in text:
+    if char.isupper():
 		count += 1

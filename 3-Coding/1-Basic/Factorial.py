@@ -7,4 +7,4 @@ while (num>1):
     fact*=num
     num-=1
 
-print("Factorial of ", num, " is", fact)
+print(fact)
