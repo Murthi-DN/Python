@@ -1,0 +1,4 @@
+for i in list:
+	for j in list:
+		if list[j]==list[i]
+			list.remove[list[j]]

@@ -1,0 +1,5 @@
+words=string.split(' ')
+
+for i in words:
+	if len(words[i])%2==0:
+		print(words[i])

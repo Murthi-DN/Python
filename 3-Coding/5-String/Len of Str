@@ -1,0 +1,9 @@
+print(len(str))
+
+
+
+or
+
+
+for i in str:
+    counter += 1

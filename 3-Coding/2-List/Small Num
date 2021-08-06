@@ -1,0 +1,21 @@
+small=list[0]
+for i in list:
+	if list[i] < small
+		small=list[i]
+
+print(small)
+
+
+
+or 
+
+
+list.sort()
+print(list[1])
+
+
+
+or
+
+
+print(min(list))

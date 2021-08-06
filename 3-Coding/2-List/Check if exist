@@ -1,0 +1,10 @@
+i=4
+if i in list:
+	print("Yes")
+
+
+or
+
+for i in list:
+	if 4==i:
+		print("Yes")

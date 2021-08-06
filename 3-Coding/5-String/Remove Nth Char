@@ -1,0 +1,7 @@
+new_str = ""
+  
+for i in len(str):
+    if i != 2:
+        new_str += str[i]
+
+print(new_str)

@@ -1,0 +1,9 @@
+wd1 = "geeks"
+wd2 = "geeksonly"
+
+for i in wd1:
+	for j in wd2:
+		if i==j:
+			count+=1
+
+print(count)
