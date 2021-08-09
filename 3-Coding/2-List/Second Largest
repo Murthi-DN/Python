@@ -7,4 +7,4 @@ or
 
 
 list.remove(max(list))
-print(list[-1])
+print(max[list])
