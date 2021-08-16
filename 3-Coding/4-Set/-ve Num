@@ -1,0 +1,7 @@
+NegativeSet = {6, -22, -33, 78, -88, 15, -55, -66, 17}
+print("Negative Set Items = ", NegativeSet)
+
+print("\nThe Negative Numbers in this NegativeSet Set are:")
+for negaVal in NegativeSet:
+    if(negaVal < 0):
+        print(negaVal, end = "  ")

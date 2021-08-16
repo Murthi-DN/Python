@@ -1,0 +1,13 @@
+posngTuple = (3, -22, -44, 19, -99, -37, 4, 11, -89)
+print("Positive and Negative Tuple Items = ", posngTuple)
+
+tPositiveCount = tNegativeCount = 0
+
+for i in range(len(posngTuple)):
+    if (posngTuple[i] >= 0):
+        tPositiveCount = tPositiveCount + 1
+    else:
+        tNegativeCount = tNegativeCount + 1
+
+print("The Count of Positive Numbers in posngTuple = ", tPositiveCount)
+print("The Count of Negative Numbers in posngTuple = ", tNegativeCount)

@@ -1,0 +1,8 @@
+
+evTuple = (3, 78, 67, 34, 88, 11, 23, 19)
+print("Tuple Items = ", evTuple)
+
+print("\nThe Even Numbers in this evTuple Tuple are:")
+for i in range(len(evTuple)):
+    if(evTuple[i] % 2 == 0):
+        print(evTuple[i], end = "  ")

@@ -1,0 +1,5 @@
+for i in list:
+    count = 1;    
+    for j in range(i+1, list):    
+        if(list[i] == list[j]):    
+            count = count + 1; 

@@ -1,0 +1,13 @@
+pongtSet = {6, -33, 99, -28, -56, 11, -45, -43}
+print("Positive and Negative Set Items = ", pongtSet)
+
+sPositiveCount = sNegativeCount = 0
+
+for eoVal in pongtSet:
+    if(eoVal >= 0):
+        sPositiveCount = sPositiveCount + 1
+    else:
+        sNegativeCount = sNegativeCount + 1
+
+print("The Count of Positive Numbers in pongtSet = ", sPositiveCount)
+print("The Count of Negative Numbers in pongtSet = ", sNegativeCount)

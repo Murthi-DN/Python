@@ -1,0 +1,1 @@
+print("The Smallest Element in this List is : ", min(NumList))

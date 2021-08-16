@@ -1,0 +1,2 @@
+fruits = ['Kiwi', 'Banana', 'Apple', 'Orange']
+y = tuple(fruits)

@@ -1,0 +1,4 @@
+intSet = {10, 25, 136, 44, 150}
+
+intSetLength = len(intSet)
+print("Set Length = ", intSetLength)

@@ -1,0 +1,13 @@
+evodSet = {78, 11, 54, 95, 16, 36, 61, 77, 150, 122}
+print("Even and Odd Set Items = ", evodSet)
+
+sEvenCount = sOddCount = 0
+
+for eoVal in evodSet:
+    if(eoVal % 2 == 0):
+        sEvenCount = sEvenCount + 1
+    else:
+        sOddCount = sOddCount + 1
+
+print("The Count of Even Numbers in evodSet = ", sEvenCount)
+print("The Count of Odd  Numbers in evodSet = ", sOddCount)

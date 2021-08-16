@@ -1,0 +1,5 @@
+numTuple = (9, 11, 22, 45, 67, 89, 15, 25, 19)
+print("Tuple Items = ", numTuple)
+
+numTuple = numTuple[:3] + numTuple[4:]
+print("After Removing 4th Tuple Item = ", numTuple)

@@ -1,0 +1,13 @@
+str = ''  
+  
+for i in list1:
+    str += i  
+
+
+
+or
+
+
+str = '' 
+  
+return (str.join())

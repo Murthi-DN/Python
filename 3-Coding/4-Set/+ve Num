@@ -1,0 +1,7 @@
+PositiveSet = {7, -8, -11, 4, -85, 14, -22, 78, 11}
+print("Positive Set Items = ", PositiveSet)
+
+print("\nThe Positive Numbers in this PositiveSet Set are:")
+for posVal in PositiveSet:
+    if(posVal >= 0):
+        print(posVal, end = "  ")

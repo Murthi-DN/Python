@@ -1,0 +1,13 @@
+evenOddTuple = (9, 22, 33, 45, 56, 77, 89, 90)
+print("Even and Odd Tuple Items = ", evenOddTuple)
+
+tEvenSum = tOddSum = 0
+
+for i in range(len(evenOddTuple)):
+    if(evenOddTuple[i] % 2 == 0):
+        tEvenSum = tEvenSum + evenOddTuple[i]
+    else:
+        tOddSum = tOddSum + evenOddTuple[i]
+
+print("The Sum of Even Numbers in evenOddTuple = ", tEvenSum)
+print("The Sum of Odd  Numbers in evenOddTuple = ", tOddSum)
