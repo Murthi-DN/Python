@@ -1,0 +1,8 @@
+result = ""
+      for i in sorted(str1):
+          result += i
+
+
+
+
+sorted() returns list like [P,H,P]

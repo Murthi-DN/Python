@@ -1,0 +1,11 @@
+string="hi bye murthi"
+
+list=string.split()
+
+
+or
+
+
+string="hi, bye, murthi"
+
+list=string.split(,)

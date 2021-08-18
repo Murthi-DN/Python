@@ -1,0 +1,3 @@
+for el in str1:
+        if el*2 in str1:
+            print(el)
