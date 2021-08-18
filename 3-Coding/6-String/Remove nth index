@@ -1,0 +1,3 @@
+first_part = str[:n] 
+last_part = str[n+1:]
+print(first_part + last_part)

@@ -1,0 +1,7 @@
+Add ing to str, if it's already der, add ly, which is more than 3 letters
+
+if length > 2:
+    if str1[-3:] == 'ing':
+      str1 += 'ly'
+else:
+  str1 += 'ing'
