@@ -1,10 +1,6 @@
-myDict = {'a': 'apple', 'b': 'Banana' , 'o': 'Orange', 'm': 'Mango'}
-print("Dictionary : ", myDict)
-
-key = input("Please enter the Key you want to search for: ")
-
-if key in myDict.keys():
-    print("\nKey Exists in this Dictionary")
-    print("Key = ", key, " and Value = ", myDict[key])
+d = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+x=5
+if x in d:
+  print('yes')
 else:
-    print("\nKey Does not Exists in this Dictionary")
+  print('no')

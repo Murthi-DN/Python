@@ -1,1 +1,8 @@
 del dict['key1']
+
+
+or
+
+
+if 'a' in myDict: 
+    del myDict['a']
