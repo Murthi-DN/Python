@@ -7,4 +7,4 @@ while exponent != 0:
     result *= base
     exponent-=1
 
-print("Answer = " + str(result))
+print(str(result))

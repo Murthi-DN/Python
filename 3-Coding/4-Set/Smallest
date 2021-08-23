@@ -1,4 +1,3 @@
 smtSet = {98, 11, 44, 32, 7, 19, 65, 80, 91}
-print("Set Items = ", smtSet)
 
-print("Smallest Item in mxSet Set = ", min(smtSet))
+print(min(smtSet))

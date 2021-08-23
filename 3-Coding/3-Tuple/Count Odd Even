@@ -1,13 +1,13 @@
 evodTuple = (2, 33, 45, 88, 77, 98, 54, 0, 17)
-print("Even and Odd Tuple Items = ", evodTuple)
 
 tEvenCount = tOddCount = 0
 
 for i in range(len(evodTuple)):
     if(evodTuple[i] % 2 == 0):
         tEvenCount = tEvenCount + 1
+
     else:
         tOddCount = tOddCount + 1
 
-print("The Count of Even Numbers in evodTuple = ", tEvenCount)
-print("The Count of Odd  Numbers in evodTuple = ", tOddCount)
+print(tEvenCount)
+print(tOddCount)

@@ -1,5 +1,4 @@
 numTuple = (20, 40, 65, 75, 80, 220)
-print("Tuple Items = ", numTuple)
 
 tupleSum = sum(numTuple)
-print("\nThe Sum of numTuple Tuple Items = ", tupleSum)
+print(tupleSum)

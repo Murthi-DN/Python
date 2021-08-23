@@ -1,4 +1,4 @@
-number = int(input("Please Enter any Number: "))
+number = int(input("Please Enter any Number"))
 
 last_digit = number % 10
 

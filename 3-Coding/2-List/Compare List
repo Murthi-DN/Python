@@ -3,6 +3,7 @@ list2.sort()
   
   
 if list1 == list2:  
-    print("The list1 and list2 are the same")  
+    print("Same") 
+
 else:  
-    print("The list1 and list3 are not the same")  
+    print("Not Same")  

@@ -1,13 +1,13 @@
 evenoddSet = {78, 64, 11, 95, 36, 66, 77, 151}
-print("Even and Odd Set Items = ", evenoddSet)
 
 sEvenSum = sOddSum = 0
 
 for eoVal in evenoddSet:
     if(eoVal % 2 == 0):
         sEvenSum = sEvenSum + eoVal
+
     else:
         sOddSum = sOddSum + eoVal
 
-print("The Sum of Even Numbers in evenoddSet = ", sEvenSum)
-print("The Sum of Odd  Numbers in evenoddSet = ", sOddSum)
+print(sEvenSum)
+print(sOddSum)

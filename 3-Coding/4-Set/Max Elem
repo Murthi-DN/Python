@@ -1,4 +1,3 @@
 mxSet = {25, 67, 36, 98, 11, 32, 19, 80, 91}
-print("Set Items = ", mxSet)
 
-print("Largest Item in mxSet Set = ", max(mxSet))
+print(max(mxSet))

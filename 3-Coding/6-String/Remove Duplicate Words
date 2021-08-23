@@ -1,6 +1,8 @@
 l = text_str.split()
-    temp = []
-    for x in l:
-        if x not in temp:
-            temp.append(x)
-    return ' '.join(temp)
+temp = []
+
+for x in l:
+    if x not in temp:
+        temp.append(x)
+
+print(' '.join(temp))

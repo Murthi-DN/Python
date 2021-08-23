@@ -1,7 +1,5 @@
 oddSet = {26, 33, 19, 8, 41, 35, 12, 17}
-print("Odd Set Items = ", oddSet)
 
-print("\nThe Odd Numbers in this oddSet Set are:")
 for odval in oddSet:
     if(odval % 2 != 0):
-        print(odval, end = "  ")
+        print(odval)

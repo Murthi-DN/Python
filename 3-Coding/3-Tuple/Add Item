@@ -1,4 +1,4 @@
 intTuple = (10, 20, 30, 40, 50)
 
 intTuple = intTuple + (70,)
-print("Tuple Items = ", intTuple)
+print(intTuple)

@@ -4,4 +4,4 @@
 
 for i in range(len(evenArr)):
     if (evenArr[i] % 2 == 0):
-        print(evenArr[i], end = "  ")
+        print(evenArr[i])

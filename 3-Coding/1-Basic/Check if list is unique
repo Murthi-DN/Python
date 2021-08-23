@@ -1,4 +1,5 @@
 if len(data) == len(set(data)):
     return True
+
   else:
-    return False;
+    return False

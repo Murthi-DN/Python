@@ -1,7 +1,5 @@
 evSet = {15, 26, 19, 78, 64, 35, 66}
-print("Even Set Items = ", evSet)
 
-print("\nThe Even Numbers in this evSet Set are:")
 for val in evSet:
     if(val % 2 == 0):
-        print(val, end = "  ")
+        print(val)

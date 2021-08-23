@@ -1,7 +1,7 @@
 regex = re.compile('[@_!#$%^&*()<>?/\|}{~:]')
         
 if(regex.search(string) == None):
-    print("String is accepted")
+    print("No Special Char")
       
 else:
-    print("String is not accepted.")
+    print("Special Char Exists")

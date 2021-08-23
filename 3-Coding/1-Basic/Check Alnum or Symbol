@@ -1,9 +1,11 @@
-ch = input("Please Enter Your Own Character : ")
+ch = B
 
 if((ch >= 'a' and ch <= 'z') or (ch >= 'A' and ch <= 'Z')): 
-    print("The Given Character ", ch, "is an Alphabet") 
+    print("Alphabet")
+
 elif(ch >= '0' and ch <= '9'):
-    print("The Given Character ", ch, "is a Digit")
+    print("Digit")
+    
 else:
-    print("The Given Character ", ch, "is a Special Character")
+    print("Special Character")
 
